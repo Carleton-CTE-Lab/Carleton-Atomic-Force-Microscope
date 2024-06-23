@@ -1,3 +1,11 @@
 Code for AFM Indentation
 
-Using python as a basis for the Atomic Force Microscope, the initial idea was to integrate a live micromanager image capture while performing an AFM indentationto simultaneously indent the surface and observe it within a single application.
+Using python as a basis for the Atomic Force Microscope, the initial idea was to integrate a live micromanager image capture while performing an AFM indentation to simultaneously indent the surface and observe it within a single application. Other ideas of integration relied on both simultaneously reading and plotting the x-y axis data on the PSD auto-aligner while indenting as well, however, some troubles arose through the length of time to complete an indentation cycle.
+
+With everything included, a simple indentation test including the full length of travel from the Nanomax (25mm) was reaching around 1 min to process everything and thus, while optimization of each code configuration could have been done; instead, some components were eliminated.
+
+  - Included within the eliminations was micromanager as it could be run within the native app simultaneously and thus, eliminates the need to import and process data back and forth between both applications.
+
+  - Furthermore, as the Auto-Aligner is near the system, the updating graph is unnecessary as it provides the same information as the screen on said k-cube
+
+Thus, leaving the indentation code to strictly read and end data to a text file that can either be inserted into the Matlab code, or into gwyddion for analysis with a graph showing the initial indentation travel data for the PSD and strain values and the retraction data.
