@@ -26,3 +26,6 @@ This 3-D Designs folder containes .stl files and .step file for everything incor
 
 Thorlabs Components
         - .stl and .step files for each individual component associated to both systems whether it be from thorlabs specifically or other components including the microscope stage, z-axis stage, an adafruit neopixel ring (used for AFM Light Fixture), etc...
+
+
+*** Within the above folders, if you .zip files strictly contain .step or .stl files of which were too large ( > 25MB ) so they were compressed to be able to upload onto GitHub***
