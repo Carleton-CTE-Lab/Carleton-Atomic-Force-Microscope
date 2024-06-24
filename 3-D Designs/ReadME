@@ -1,1 +1,28 @@
+This 3-D Designs folder containes .stl files and .step file for everything incorperated per system alongside both systems constructed and the combination of both systems. Within this main branch, the below sub-branches can be observed:
 
+
+  Active components contains the
+        - System as a whole (complete system build)
+        - Cantilever holder to be 3-D printed or machined (Cantilever Redesigned with 12deg Angle)
+        - Standalone AFM system as (AFM Step/Stl)
+        - Standalone Flexi-scope configuration used (A Complete Flexiscope Build (AFM))
+        - 3-D printed or machined holder adapter for the flexiscope to attatch to the z-axis stage (Flex-Holder - file folder)
+        - PDF drawing files for the Flexi-scope and AFM config used with their parts lists in an exploded drawing (A Complete Flexiscope Build Expanded Drawing + Hanging AFM Configuration)
+
+
+  Drawing Files
+        - Contains older iterations of the system combination and each individual components as .PDF drawing files
+
+
+  Early Iterations
+        - Contains previous iterations of the system through its initialization and upgrades
+
+
+  QOL Accessories contains the 3-D files(s) for the
+        - Light fixture used in images of the system to provide further light beyond the room light for better image clarity (AFM Light Fixture)
+        - Breadboard organization through wire clips and a container for storage (Design - Breadboard Object Container + Design - Breadboard Wire Clamp)
+        - Holder that assists in attatching/glueing the cantilever to its holder
+
+
+Thorlabs Components
+        - .stl and .step files for each individual component associated to both systems whether it be from thorlabs specifically or other components including the microscope stage, z-axis stage, an adafruit neopixel ring (used for AFM Light Fixture), etc...
