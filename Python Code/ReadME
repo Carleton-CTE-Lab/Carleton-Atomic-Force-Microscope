@@ -8,4 +8,4 @@ With everything included, a simple indentation test including the full length of
 
   - Furthermore, as the Auto-Aligner is near the system, the updating graph is unnecessary as it provides the same information as the screen on said k-cube
 
-Thus, leaving the indentation code to strictly read and enter data into a text file that can either be inserted into the Matlab code, or into gwyddion for analysis with a graph showing the initial indentation travel data for the PSD and strain values and the retraction data.
+Thus, leaving the indentation code to strictly read and enter data into a text file that can either be inserted into the Matlab code, or into gwyddion for analysis with a graph showing the initial indentation travel data for the PSD, the strain values and the retraction data.
