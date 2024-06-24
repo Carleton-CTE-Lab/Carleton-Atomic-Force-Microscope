@@ -1,1 +1,25 @@
+Conversion of AFM Data read:
 
+Following the python code for the Atomic Force Microscope indenting a surface, the data for the displacement, and strain values for the X-dir, Y-dir, and signal summation can be saved into a text file using the python application. This data can then be imported into varying Matlab files to initially set a base calibration factor through indentation on glass, and comparing that to the materials being tested.
+
+
+To impliment this, the initial file of AFMGlassFitting is ran to initialize the calibration factor of the AFM system through the following process.
+  
+  - Import the text file data and - while the data should be automatically selected, ensure to strictly select the 4 columns of data (strain, X-diff, Y-diff, sum)
+
+  - Change the Glass initialization variables with respect to the filename (GlassStrain = flip('Filename'.VarName1))
+
+  - Run the code resulting in a force-curve and from here, select a starting point pretaining to the indentation, and an end point prior to the end of this travel for the code to calculate a slope value for the point of contact
+
+  - This coefficient is then stored and can be used by the AFMCurveFittingSelection.mlx when ran on the same MatLab live editor
+
+
+Similarly to the AFMGlassFitting.mlx, the steps for processing the data are as follows:
+  
+  - Import the data similarly to above however, importing instead the seperate Indentation and Retraction files
+
+  - Change the filenames of the variables pretaining to the indentation and retraction of the sample
+
+  - Run the program and select the initial starting and ending location of the section to be 'curve fit'
+
+  - This area will then be re-fit starting at a zero-base stain value yielding another curve which can be fit further including the calibration value of the glass sample to obtain the Force vs. Indentation data of the sample
